@@ -6,9 +6,9 @@
 **Correo:** daniel.barragan at correo.icesi.edu.co
 
 **Nombre:** Carlos Andrés Afanador Cabal  
-**Código:** A00054652
-**Correo:** carlosafanador97 at gmail
-**URL Git:** https://github.com/yosoyafa/so-exam2 
+**Código:** A00054652  
+**Correo:** carlosafanador97 at gmail  
+**URL Git:** https://github.com/yosoyafa/so-exam2   
 
 ### Punto 3
 
