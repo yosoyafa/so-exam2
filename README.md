@@ -28,11 +28,12 @@
    
    Después se deben crear los servicios correspondientes a cada script, y para llevar esto a cabo esto, nos debemos dirigir al directorio /etc/systemd/system:
    
-      ```
+```
 # cd /etc/systemd/system
 ```
 Se crean los servicios s1.service y s2.service, dándole a cada uno todos los permisos:
-   ```
+
+```
 # touch s1.service
 # touch s2.service
 # chmod 777 s1.service
