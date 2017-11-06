@@ -26,7 +26,7 @@
 # chmod 777 baia.sh
 ```
    
-   Después se deben crear los servicios correspondientes a cada script, y para llevar esto a cabo esto, nos debemos dirigir al directorio /etc/systemd/system:
+   Después se deben crear los servicios correspondientes a cada script, y para llevar esto a cabo esto, nos debemos dirigir al directorio */etc/systemd/system*:
    
 ```
 # cd /etc/systemd/system
@@ -64,7 +64,7 @@ Ya con ambos servicios corriendo, podemos observar su comportamiento mediante el
 
    ![][4]
 
-Evidentemente, la capacidad de la CPU está siendo repartida 50%-50% entre los dos servicios. Ahora se procede a detener uno de los dos servicios, y se puede obsevar que el proceso que aun vive, sigue trabajando con el 50% de la capacidad de la CPU:
+Evidentemente, la capacidad de la CPU está siendo repartida 50%-50% (aprox.) entre los dos servicios. Ahora se procede a detener uno de los dos servicios, y se puede obsevar que el proceso que aun vive, sigue trabajando con el 50% de la capacidad de la CPU:
 
 
    ![][5]
