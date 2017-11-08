@@ -100,11 +100,11 @@ Evidentemente, el servicio al que se le asigno el CPUShares de 750, está usando
    
 ### Punto 4
 
-**CPUQuota:** restringe el tiempo de procesamiento de la CPU al porcentaje asignado (ej.: CPUQuota=50%), incluso si el resto del procesador no está en uso.
+**CPUQuota:** es grupo de control que restringe el tiempo de procesamiento de la CPU al porcentaje asignado (ej.: CPUQuota=50%), incluso si el resto del procesador no está en uso.
 
-**CPUShares:** refiere a la cantidad de 
+**CPUShares:** es un grupo de control que reparte la capacidad de procesamiento de la CPU entre los procesos, asignando por cantidades relativas a la totalidad de la CPU, y no se desperdicia capacidad de procesamiento haciendo un uso más eficiente de los recursos disponibles.
 
-En conclusión, CPUQuota es ideal para restringir los recursos de la CPU dado el caso en el que exista algún proceso que esté consumiendo toda la capacidad de procesamiento, y con el uso de CPUQuota los demás procesos podrán desarrollarse normalmente. CPUShares 
+En conclusión, CPUQuota es ideal para restringir los recursos de la CPU dado el caso en el que exista algún proceso que esté consumiendo toda la capacidad de procesamiento, y con el uso de CPUQuota los demás procesos podrán desarrollarse normalmente. CPUShares, en cambio, es más efectivo a la hora de optimizar los recursos de procesamiento, ya que no guarda CPU para procesos que no están activos, ni le niega capacidad a los que si la necesitan, sin dejar de hacer una repartición efectiva cuando es necesario.
 
 ### Referencias  
 * https://sysdig.com/blog/monitoring-greedy-containers-part-1/  
