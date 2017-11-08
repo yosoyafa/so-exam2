@@ -107,8 +107,8 @@ Evidentemente, el servicio al que se le asigno el CPUShares de 750, está usando
 En conclusión, CPUQuota es ideal para restringir los recursos de la CPU dado el caso en el que exista algún proceso que esté consumiendo toda la capacidad de procesamiento, y con el uso de CPUQuota los demás procesos podrán desarrollarse normalmente. CPUShares 
 
 ### Referencias
-··*https://sysdig.com/blog/monitoring-greedy-containers-part-1/
-··*https://www.certdepot.net/rhel7-get-started-cgroups/
+··* https://sysdig.com/blog/monitoring-greedy-containers-part-1/
+⋅⋅* https://www.certdepot.net/rhel7-get-started-cgroups/
    
 [1]: images/conf.png
 [2]: images/1-scripts.png
