@@ -97,6 +97,19 @@ Evidentemente, el servicio al que se le asigno el CPUShares de 750, está usando
 
    ![][8]
    
+   
+### Punto 4
+
+**CPUQuota:** restringe el tiempo de procesamiento de la CPU al porcentaje asignado (ej.: CPUQuota=50%), incluso si el resto del procesador no está en uso.
+
+**CPUShares:** refiere a la cantidad de 
+
+En conclusión, CPUQuota es ideal para restringir los recursos de la CPU dado el caso en el que exista algún proceso que esté consumiendo toda la capacidad de procesamiento, y con el uso de CPUQuota los demás procesos podrán desarrollarse normalmente. CPUShares 
+
+### Referencias
+*https://sysdig.com/blog/monitoring-greedy-containers-part-1/
+*https://www.certdepot.net/rhel7-get-started-cgroups/
+   
 [1]: images/conf.png
 [2]: images/1-scripts.png
 [3]: images/1-servicesCPUQuota.png
