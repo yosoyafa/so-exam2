@@ -108,7 +108,8 @@ En conclusión, CPUQuota es ideal para restringir los recursos de la CPU dado el
 
 ### Referencias  
 * https://sysdig.com/blog/monitoring-greedy-containers-part-1/  
-* https://www.certdepot.net/rhel7-get-started-cgroups/  
+* https://www.certdepot.net/rhel7-get-started-cgroups/ 
+* https://github.com/ICESI/so-containers  
    
 [1]: images/conf.png
 [2]: images/1-scripts.png
